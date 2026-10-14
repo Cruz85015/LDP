@@ -35,7 +35,7 @@ public class EjercicioArreglo {
     IO.println("El numero mayor es: " + mayor);
     IO.println("su posicion es: " + nomayor );
     IO.println("El numero menor es: " + menor );
-    IO.println("su pisicion es: " + nomenor );
+    IO.println("su posicion es: " + nomenor );
 
 
 }
