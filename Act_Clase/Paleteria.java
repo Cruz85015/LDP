@@ -35,5 +35,5 @@ public class Paleteria{
 
         scanner.close();
     }
-
+ }
    

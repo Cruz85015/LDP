@@ -11,9 +11,10 @@ public class Libreria {
         ArrayList <String> Libro = new ArrayList<>();
         Libro.add("El color del trigo");
         Libro.add("Las Batallas en el Desierto");
+        
+
 
         for(int i = 0 ; i< Libro.size(); ++i){
-        System.out.println("estos son los libros disponibles: ");
         System.out.println(Libro.get(i));
          }
     }
