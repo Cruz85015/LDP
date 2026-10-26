@@ -73,3 +73,17 @@ System.out.println("Etapa 2 \n");
     }
 }
 }
+for (int i = 1; i <= clientes.size(); i++) {
+            do {
+                producto = Integer.parseInt(IO.readln("Que producto desea agrega " + clientes.get(i) + " ?"));
+                if (producto < 1 || producto > 4) {
+                    System.out.println("Producto invalido. Intenta de nuevo.");
+                } else {
+                    producto_compra.add(producto);
+                    cant_producto = Integer.parseInt(IO.readln("Cuantas unidades decea agregar? "));
+                    if (cant_producto > 0 ) {
+                        cantidad_producto.add(cant_producto);
+                    } else{System.out.println("Tu cantidad de productos es invalido");}
+                }
+                respuesta_c = IO.readln("quieres agregar otro producto? \n )si \n )no\n :");
+            } while (respuesta_c.equalsIgnoreCase("si"));
